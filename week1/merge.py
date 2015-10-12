@@ -16,6 +16,7 @@ with open("IntegerArray.txt") as f:
     unsorted = []
     for line in f:
         unsorted.append(int(line))
+
 count = [0]
 merge_sort(unsorted, count)
 print count
